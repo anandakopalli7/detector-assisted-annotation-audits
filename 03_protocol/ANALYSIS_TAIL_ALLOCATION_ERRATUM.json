@@ -1,0 +1,12 @@
+{
+  "status": "CORRECTED",
+  "detected_after_outcomes": true,
+  "utc": "2026-11-11T04:31:34.148435+00:00",
+  "issue": "The frozen specification applied the one-sided empirical Bernstein allocation to a two-sided display.",
+  "source": "https://www.learningtheory.org/colt2009/papers/012.pdf",
+  "source_location": "Theorem 4, page 2",
+  "derivation": "For D in [-C,C], scale to [0,1]. Apply Theorem 4 to D and -D, each with failure probability alpha/(2*6). A union bound over 12 tails gives family error <=alpha. The logarithm is log(4*6/alpha)=log(480), not log(240).",
+  "unchanged": "All raw results, sample sizes, paired means, MCSEs, t intervals, coverage tests and historical decisions. Original six one-sided upper bounds remain valid and inconclusive.",
+  "action": "Widen two-sided finite bounds only; preserve ANALYSIS_V1 and the frozen protocol; no new data or favorable reinterpretation.",
+  "original_summary_sha256": "55460bc5e60a5e48a70f1cb497e281565f6420f1ac5cba603b5bc1a2cb630cb4"
+}

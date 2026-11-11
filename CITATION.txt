@@ -1,0 +1,4 @@
+Ananda Siva Kumar Kopalli Naga Venkata. Detector-Assisted Annotation Audits: Reproducibility Materials. Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.24126429.
+ORCID: https://orcid.org/0009-0002-5241-9922
+Code: https://github.com/anandakopalli7/programme-b-annotation-audits
+This citation identifies the research artifacts; it does not claim journal acceptance.

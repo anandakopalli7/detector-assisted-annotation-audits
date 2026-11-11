@@ -1,0 +1,200 @@
+{
+  "status": "DESIGN_ONLY_NOT_IMPLEMENTED_NOT_AUTHORIZED_FOR_EXECUTION",
+  "design_authority": "D-P2-11 A; receipt ../D_P2_11_APPROVAL_v01.json",
+  "next_decision": "D-P2-12 implementation and fabricated validation only",
+  "N": 1000,
+  "K": 20,
+  "mechanisms": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10"
+  ],
+  "primary_mechanisms": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06"
+  ],
+  "historical_endpoint_mechanisms_not_in_new_exact_count_study": [
+    "M11",
+    "M12"
+  ],
+  "budgets": [
+    50,
+    100,
+    200,
+    400
+  ],
+  "primary_budget": 200,
+  "populations_per_mechanism": 100,
+  "replicates_per_cell": 5000,
+  "chunk_size": 50,
+  "legacy_methods": [
+    "direct_HT",
+    "stratified_HT",
+    "raw_difference",
+    "split_ridge10",
+    "split_offset100",
+    "seq_detector_100"
+  ],
+  "new_methods": [
+    "ff_power",
+    "ff_strat_power",
+    "frame_cf2_offset100",
+    "frame_cf2_direct",
+    "active_count_lure",
+    "ppat_count_half",
+    "ppat_count_one"
+  ],
+  "interval_ablations": [
+    "direct_HT_wald",
+    "raw_difference_wald",
+    "split_offset100_wald"
+  ],
+  "primary_pairs": [
+    [
+      "seq_detector_100",
+      "direct_HT"
+    ],
+    [
+      "seq_detector_100",
+      "stratified_HT"
+    ],
+    [
+      "seq_detector_100",
+      "split_offset100"
+    ],
+    [
+      "seq_detector_100",
+      "ff_power"
+    ],
+    [
+      "seq_detector_100",
+      "ff_strat_power"
+    ],
+    [
+      "seq_detector_100",
+      "frame_cf2_offset100"
+    ],
+    [
+      "seq_detector_100",
+      "ppat_count_half"
+    ],
+    [
+      "seq_detector_100",
+      "ppat_count_one"
+    ],
+    [
+      "frame_cf2_offset100",
+      "frame_cf2_direct"
+    ],
+    [
+      "ff_strat_power",
+      "stratified_HT"
+    ],
+    [
+      "ppat_count_half",
+      "active_count_lure"
+    ],
+    [
+      "ppat_count_one",
+      "active_count_lure"
+    ]
+  ],
+  "primary_metrics": [
+    "normalized_squared_error",
+    "normalized_scored_width"
+  ],
+  "primary_effect_count": 24,
+  "nominal_interval_alpha": 0.05,
+  "mc_primary_family_alpha": 0.05,
+  "mc_coverage_family_alpha": 0.05,
+  "mc_families_are_separate_not_joint_95_percent": true,
+  "new_success_gate": null,
+  "original_medium_verdict": "NOT_ATTAINED",
+  "new_population_generation_authorized": false,
+  "performance_execution_authorized": false,
+  "new_external_data_access_authorized": false,
+  "population_seed_prefix": "P2_COMPARATOR_POPULATIONS_V01",
+  "audit_seed_prefix": "P2_COMPARATOR_AUDITS_V01",
+  "fold_seed_prefix": "P2_COMPARE_FRAME_FOLDS_V01",
+  "seed_rule": "first 8 SHA256 bytes, big endian; UTF-8, pipe-separated, decimal integers without leading zeros",
+  "population_seed_format": "P2_COMPARATOR_POPULATIONS_V01|Mxx|index",
+  "audit_seed_format": "P2_COMPARATOR_AUDITS_V01|Mxx|budget|replicate|stream",
+  "streams": [
+    "population_index",
+    "srs_order",
+    "fold_0_order",
+    "fold_1_order",
+    "active_uniforms"
+  ],
+  "index_ranges": {
+    "population": [
+      0,
+      99
+    ],
+    "replicate": [
+      0,
+      4999
+    ]
+  },
+  "rng": "numpy.random.Generator(PCG64(seed))",
+  "active_uniform_mix": 0.1,
+  "active_lambdas": [
+    0,
+    0.5,
+    1
+  ],
+  "power_lambda_bounds": [
+    0,
+    1
+  ],
+  "ridge_penalty": 100,
+  "model_updates_after": [
+    20,
+    40,
+    80,
+    120,
+    160
+  ],
+  "power_denominator_tolerance": 1e-12,
+  "probability_sum_tolerance": 1e-12,
+  "normalized_squared_error_support": {
+    "nonactive": [
+      0,
+      4
+    ],
+    "active": [
+      0,
+      529
+    ]
+  },
+  "expected": {
+    "populations": 1000,
+    "mechanism_budget_cells": 40,
+    "paired_replicates": 200000,
+    "point_method_records": 2600000,
+    "interval_records": 3200000,
+    "point_cells": 520,
+    "interval_cells": 640,
+    "paired_chunks": 4000
+  },
+  "exclusions": [
+    "No new physical-truth claim",
+    "No hidden label access",
+    "No human work",
+    "No spending",
+    "No publication",
+    "No outcome-driven tuning",
+    "No claims of original-software replication"
+  ]
+}

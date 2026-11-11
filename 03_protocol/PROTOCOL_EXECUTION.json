@@ -1,0 +1,125 @@
+{
+  "schema": "PROGRAMME_B_OJCS_REVISION_PROTOCOL_V1",
+  "status": "FROZEN_FOR_FIXED_EXECUTION",
+  "target": "IEEE Open Journal of the Computer Society",
+  "purpose": "Integrate Codex Papers 1 and 2; distinguish estimation accuracy, uncertainty construction and measurement validity in bounded annotation audits.",
+  "approval_source": "User approved the OJCS revision and two targeted experiments; paid resource amount must be concrete before provisioning.",
+  "prior_exposure": "All retained synthetic, nuImages and Paper 1 results are development evidence. New seeds do not make known generator families unseen. The current review has used no protected human record.",
+  "claims_allowed_before_new_results": [
+    "The retained joint 10 percent improvement target failed.",
+    "Existing comparisons are implementation-specific, not a general impossibility result for prediction assistance.",
+    "Paper 1 contains one-rater operational judgments, not independently verified physical omissions."
+  ],
+  "contribution_gate": {
+    "decision": "GO for the bounded empirical revision, not submission GO",
+    "reason": "The published RLFA framework already supplies prediction-assisted without-replacement inference. The useful remaining question is whether the historical accuracy-width gap persists when the uncertainty construction changes on the same observations and forecasts, and how that result transfers to another known-deletion frame.",
+    "no_claim": "No new general estimator, no broad state of the art result, no guaranteed journal acceptance."
+  },
+  "experiment_1": {
+    "question": "Does changing the interval construction resolve the historical weak width improvement at the same measured-image budget?",
+    "population_size": 1000,
+    "count_cap": 20,
+    "mechanisms": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10"
+    ],
+    "primary_mechanisms": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06"
+    ],
+    "primary_budget": 200,
+    "secondary_budgets": [
+      50,
+      100
+    ],
+    "replicates_per_mechanism": 1000,
+    "unit": "One independently generated finite population and one paired sampling order per replicate; no reuse of a population counted as an independent population.",
+    "new_strong_intervals": [
+      "Qualified RLFA with fixed proxy",
+      "Qualified RLFA with identical past-only forecasts",
+      "Qualified ConBo uniform-without-replacement integer specialization"
+    ],
+    "anchors": "Retained 13 point methods and their interval implementations, with source departures and guarantee classes disclosed.",
+    "isolation": "RLFA past-only and retained sequential interval receive the same measurement order and forecasts; the point estimate is unchanged. RLFA fixed is paired to the raw-proxy setting. ConBo uses no predictor. Other sampling designs retain their own honest budgets and are not described as identical sample sets.",
+    "optimization": "Exact rational backend, permanent running rejection pruning and certified monotone endpoint search; no scientific tuning. Reference agreement required before use.",
+    "closed_branch": "Do not expand the failed integer point-band utility study. Its existing negative result is retained in the supplement."
+  },
+  "experiment_2": {
+    "question": "Does the pattern transfer from synthetic populations and nuImages to a fixed additional real-image known-deletion frame?",
+    "dataset": "COCO val2017; 1000 images selected solely by hash of official image IDs before inspecting object outcomes",
+    "selection_namespace": "PROGRAMMEB_OJCS_20261110_COCO_FRAME_V1",
+    "model": "torchvision Faster R-CNN ResNet50 FPN V2, COCO_V1 weights, one frozen checkpoint; no training or model selection",
+    "model_exposure": "COCO-trained detector; validation benchmark may have informed provider model development. This is a transfer study of the audit procedure, not independent detector generalization or natural-omission validation.",
+    "target": "Deleted non-crowd provider person instances with positive in-image boxes and height at least 25 pixels. At most 20 eligible targets per image, chosen by a fixed annotation-ID hash when necessary. All non-target annotations remain available for matching. The target is the capped constructed count, not every physical person.",
+    "image_selection": "Take the first 1000 official val2017 image IDs after sorting SHA256(namespace|image_id). No replacements based on annotations, detector performance or experimental outcomes. Missing or corrupt files stop execution.",
+    "deletions": {
+      "uniform": 0.2,
+      "height_dependent": {
+        "height_25_to_40": 0.5,
+        "height_40_to_80": 0.2,
+        "height_80_plus": 0.05
+      },
+      "rare": 0.005
+    },
+    "deletion_rule": "SHA256-derived uniforms keyed by fixed namespace, scenario and annotation ID; fixed once before audit randomization.",
+    "predictor": "Person detections at score >=0.5; original-image height >=25; maximum-cardinality then maximum-IoU one-to-one matching at IoU >=0.5 to retained eligible person annotations. Six count/height features plus three full-frame leave-one-out count features; COCO has no invented drive groups.",
+    "scope": "Same methods, cap and budgets as Experiment 1; 1000 independent audit orders for each of three fixed deletion frames; repetitions are not independent datasets.",
+    "licenses": "COCO annotation CC BY 4.0; images retain their individual Flickr rights. Release code, IDs, derived counts and provenance, not a new image archive."
+  },
+  "analysis": {
+    "endpoints": [
+      "MSE and mean conditional-risk score where justified",
+      "Mean interval width and full logical-support frequency",
+      "Coverage of the constructed total; running-set coverage for the strong confidence sequences",
+      "Runtime and measured-image budget including all predictor fitting labels"
+    ],
+    "primary_interval_contrast": "Paired mean width difference: RLFA past-only minus historical sequential interval, separately for each of M01-M06 at b=200.",
+    "primary_effect_size": "Mean width ratio and paired difference; no outcome-dependent redefinition of success.",
+    "uncertainty": "Report paired Monte Carlo standard errors and 95 percent t intervals as approximate simulation uncertainty; also provide bounded empirical-Bernstein simultaneous intervals for six primary width differences. Do not relabel an inconclusive finite-sample contrast as established superiority.",
+    "coverage": "Report exact binomial intervals for independent simulations; Holm-adjusted one-sided tests for coverage below 95 percent across the predeclared new cells. An observed 95 percent estimate is not proof of the nominal guarantee.",
+    "sample_size_reason": "1000 independent repetitions give approximately 0.69 percentage points standard error at 95 percent coverage (about 1.35 points for an unadjusted normal 95 percent half-width); exact intervals will be used. This is a precision target, not a power guarantee for every width contrast.",
+    "failures": "Keep every planned replicate. Empty sets count as noncoverage and receive full logical-support width in utility scoring, while also being reported separately. Numerical errors halt the run and remain in the ledger; no silent seed replacement.",
+    "old_target": "The old joint 10 percent MSE-and-width target against both direct and stratified auditing remains NOT_ATTAINED; no new result retroactively changes it."
+  },
+  "execution_limits": {
+    "new_performance_experiments": 2,
+    "synthetic_max_paths": 10000,
+    "external_max_paths": 3000,
+    "research_branching": "No additional algorithms, datasets, predictors, hyperparameter sweeps or extra repetitions in response to unfavorable findings.",
+    "engineering_limit": "Two bounded implementation changes for runtime: exact GMP rationals and exact running/end-point evaluation. Both already implemented; further optimization requires a concrete blocker review.",
+    "cloud": "One task-owned compute resource at a time; no new persistent S3/network volumes unless strictly necessary and separately itemized. No use or mutation of Claude-owned resources.",
+    "spending": "No resource is provisioned until a live rate, full-job estimate and user-approved ceiling exist.",
+    "stop": "Hard process deadlines, checkpointed outputs, automatic compute shutdown plus independent controller; verify terminal provider state; remove task-created disks after verified local evidence transfer.",
+    "active_work_estimate_hours": [
+      14,
+      20
+    ],
+    "scope_change": "Pause for a concrete decision if evidence requires expanded scientific scope, unavailable access, an increased spending ceiling or more than the planned active-work allowance."
+  },
+  "completion_gate": [
+    "Both fixed studies complete or explicitly disclosed as incomplete",
+    "Every manuscript number linked to a retained result",
+    "Proofs match actual implementation assumptions",
+    "No unqualified novelty or physical-truth claims",
+    "OJCS format and submission checklist verified against official guidance",
+    "Source and review PDF compile and render correctly",
+    "Code license/provenance and data availability resolved",
+    "Author completes release/account actions when required"
+  ],
+  "frozen_utc": "2026-11-10T23:36:17.342535+00:00",
+  "analysis_spec_sha256": "64abe50484255147ee8c5d648e11faab6894dd073f55fb6a733b615522b3b1d3",
+  "budget_approval_sha256": "90f420dc2492327f15965f571a5657c159f44a522d21e831b69cda8afc94338b",
+  "clarification": "See ANALYSIS_SPEC.json for exact multiplicity family, matching references, geometry and fixed external-population provenance. No additional methods, data sets or repetitions."
+}

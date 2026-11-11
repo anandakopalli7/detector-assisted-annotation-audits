@@ -1,0 +1,78 @@
+{
+  "status": "PROPOSED_D_P2_03_NOT_APPROVED",
+  "N": 1000,
+  "K": 20,
+  "mechanisms": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12"
+  ],
+  "efficiency_mechanisms": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06"
+  ],
+  "budgets": [
+    50,
+    100,
+    200,
+    400
+  ],
+  "primary_budget": 200,
+  "populations_per_mechanism": 100,
+  "coverage_repetitions": 20000,
+  "coverage_chunk": 100,
+  "risk_looks": [
+    20000,
+    100000,
+    500000,
+    1000000
+  ],
+  "risk_chunk": 1000,
+  "population_seed_prefix": "P2_FINAL_POPULATIONS_V01",
+  "audit_seed_prefix": "P2_FINAL_SAMPLING_V01",
+  "seed_rule": "first eight SHA256 bytes, big endian; population prefix|mechanism|index; audit prefix|mechanism|budget|replicate; audit RNG first draws benchmark index uniformly then ordered permutation",
+  "python": "3.12.2",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "candidate": "seq_detector_100",
+  "interval_strategy": "predmix_099",
+  "alpha": 0.05,
+  "upper_lower_tail_alpha": 0.025,
+  "integer_guard": 1,
+  "model_updates_after": [
+    20,
+    40,
+    80,
+    120,
+    160
+  ],
+  "ridge_penalty": 100,
+  "methods": [
+    "direct_HT",
+    "stratified_HT",
+    "raw_difference",
+    "split_ridge10",
+    "split_offset100",
+    "seq_detector_100"
+  ],
+  "risk_score": "expected predictable quadratic risk equals MSE; not conditional MSE after the full trace",
+  "primary_risk_normalized_support": 0.004004502541665573,
+  "coverage_screen": "sufficient all-prefix endpoint certificate, binomial lower at one-sided error .05/48 >= .94; claimed theoretical coverage stays .95",
+  "efficiency_test": "same .90 baseline multiplier and empirical-Bernstein rules as D-P2-02; risk score/support updated by approved AM-P2-01; no early futility shortcut",
+  "external_evaluation": "not authorized or included; separate access/freeze decision required",
+  "raw_outputs": "50_RESULTS/FINAL_SYNTHETIC_v01",
+  "approval_receipt_required": "20_DESIGN/D_P2_03_APPROVAL_v01.json"
+}

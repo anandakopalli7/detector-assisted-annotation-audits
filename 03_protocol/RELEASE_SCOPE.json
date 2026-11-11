@@ -1,0 +1,11 @@
+{
+  "original_execution_sha256": "59278395580dbef3f7a416fb5111d5d3ce5c096e4f4a529b96a65a92be21a28a",
+  "omitted_original_sources": {
+    "03_protocol/BUDGET_APPROVAL.json": "Private spending approval; not a scientific input",
+    "04_code/ojcs_cpu_job.py": "Task-specific cloud job orchestration",
+    "04_code/ojcs_pod_guard.py": "Task-specific cloud shutdown controller",
+    "04_code/ojcs_remote_snapshot.py": "Task-specific remote transfer helper"
+  },
+  "scientific_sources_changed": false,
+  "note": "Original execution manifest is preserved exactly. Public checks verify every retained original scientific source/input. Historical cloud launchers are not public entry points. Use reproduce_path.py for optional local replay."
+}

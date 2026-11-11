@@ -1,0 +1,36 @@
+{
+  "schema": "OJCS_ANALYSIS_SPEC_V1",
+  "status": "FIXED_BEFORE_PERFORMANCE_RESULTS",
+  "primary": {
+    "mechanisms": ["M01", "M02", "M03", "M04", "M05", "M06"],
+    "budget": 200,
+    "contrast": "rlfa_past_certified scored hull width minus seq_detector_100 scored width on the identical observations and forecasts",
+    "report": ["paired mean difference", "ratio of mean widths", "paired Monte Carlo standard error", "pointwise approximate 95 percent Student t interval", "simultaneous finite empirical Bernstein interval for the six contrasts"],
+    "finite_interval": "For each of six independent-replicate sequences D in [-C,C], C=20000, use sample variance s2 with denominator n-1 and radius sqrt(2*s2*log(2/delta)/n) + 7*(2*C)*log(2/delta)/(3*(n-1)), delta=0.05/6; intersect with [-C,C]. No finite-sample superiority claim when this interval includes zero.",
+    "practical_interpretation": "Report magnitude; no new outcome-dependent minimum-gain threshold. The historical joint ten-percent target remains failed."
+  },
+  "coverage": {
+    "primary_new_interval_family": "3 strong interval constructions x 13 cells (10 synthetic mechanisms, 3 fixed COCO frames) x 3 budgets = 117 one-sided tests",
+    "endpoint": "accepted_set_covers; for running sets this is the true total retained at every prefix through the budget",
+    "test": "Exact binomial CDF P_{p=0.95}(X<=observed successes), Holm familywise alpha=0.05 over all 117 cells",
+    "interval": "Pointwise two-sided 95 percent Clopper-Pearson interval, explicitly not simultaneous",
+    "other_endpoints": "Hull coverage and all 16 retained interval constructions are reported with pointwise Clopper-Pearson intervals as secondary descriptive diagnostics; original published-family tests remain historical results.",
+    "interpretation": "Failure to reject undercoverage does not prove nominal coverage. Mathematical guarantees remain conditional on their measurement, support and predictability assumptions."
+  },
+  "secondary": {
+    "budgets": [50,100],
+    "mechanisms": ["M07","M08","M09","M10"],
+    "external_cells": ["COCO_uniform","COCO_height_dependent","COCO_rare"],
+    "endpoints": ["13 point-method MSEs", "mean signed error", "sequential conditional-risk score", "19 interval widths and coverage", "empty-set frequency", "full logical-support frequency", "elapsed execution time"],
+    "external_scope": "Three fixed known-deletion populations; 1000 independent audit orders each, not independently sampled image datasets.",
+    "timing_scope": "Per-method elapsed times are collected under concurrent worker load and are execution diagnostics, not isolated hardware-normalized speed benchmarks. Detector compute is reported separately from measured-image label budgets."
+  },
+  "failure_policy": "Numerical or integrity errors halt execution and preserve evidence. No seed replacement, new methods, dataset search or extra repetitions. Empty intervals are noncovering and receive full-capacity scored width while their emptiness is separately reported.",
+  "implementation_clarifications": {
+    "coco_geometry": "Clip provider boxes to image bounds; require positive clipped area. Target eligibility uses clipped height >=25, non-crowd person category and at most 20 targets per image selected by annotation-ID hash.",
+    "matching_reference": "All retained positive-area provider person boxes remain matching references, including non-target, short and crowd boxes. Only eligible hash-capped targets are deleted. Retained short/crowd references prevent conflating these out-of-target proposals with the target and are disclosed explicitly.",
+    "matching": "Maximum cardinality, then maximum total IoU at threshold 0.5; SciPy linear assignment with cardinality bonus greater than the maximum possible total IoU difference.",
+    "features": "Unmatched detector count, retained eligible-provider count, filtered detector count, three unmatched-height bins; plus full-frame leave-one-out versions of the three counts. All COCO images have one bookkeeping group, not invented drive identities.",
+    "folds": "One frame_id per fixed COCO deletion scenario, shared by all repetitions; synthetic populations have distinct frame identities."
+  }
+}

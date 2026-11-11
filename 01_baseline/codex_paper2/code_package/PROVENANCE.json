@@ -1,0 +1,172 @@
+{
+  "comparator/design_config.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/design_config.json",
+    "sha256": "a808211e7ab4468b2ee787389e344cadce12cb5a352afeccec65c93c4a9479e9",
+    "unchanged": true
+  },
+  "comparator/historical_final_config.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/historical_final_config.json",
+    "sha256": "fe99666c0c78cc0f047bdec6a0b2f67abe6ea79370be7979b226c3706848f56a",
+    "unchanged": true
+  },
+  "comparator/IMPLEMENTATION_REVIEW.md": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/IMPLEMENTATION_REVIEW.md",
+    "sha256": "bad436f0c9d11d24664f5768c77f4df6ef78624c86b98ac56ec87ec408f905e5",
+    "unchanged": true
+  },
+  "comparator/PROVENANCE_AND_LICENSE.md": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/PROVENANCE_AND_LICENSE.md",
+    "sha256": "ae86489c22c5b7b963a737e0a40379fcd5732784821cc912a8d1d6d8bb4cd7e1",
+    "unchanged": true
+  },
+  "comparator/README.md": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/README.md",
+    "sha256": "152c1ab50fca77988266d69516d4c64487540d76acedc20730bf43f51be45187",
+    "unchanged": true
+  },
+  "comparator/RELEASE_MANIFEST.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/RELEASE_MANIFEST.json",
+    "sha256": "e12494deaf505c2e3a823bec011bde07bba14e36a8302e03642c9588c6870031",
+    "unchanged": true
+  },
+  "comparator/REPRODUCE.md": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/REPRODUCE.md",
+    "sha256": "577673041decb202dc7c38ae30022bc769ff2c9f321665c7225ae92b7c86cdc9",
+    "unchanged": true
+  },
+  "comparator/RUNTIME_MANIFEST.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/RUNTIME_MANIFEST.json",
+    "sha256": "f76690ce0167ce81377e04101b47cd2e9c94b6a20d5c5dd346db4c955105f2c8",
+    "unchanged": true
+  },
+  "comparator/SEED_AUDIT.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/SEED_AUDIT.json",
+    "sha256": "12d0a40580dbf5b2ae917974444c38883f6dacec7834832c32f98e02340d4e71",
+    "unchanged": true
+  },
+  "comparator/VENDOR_PROVENANCE.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/VENDOR_PROVENANCE.json",
+    "sha256": "f28f3dca7efd53f7e3350e0de01e29f33f0d18eae52527a0df8d1e4474385912",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/engine.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/engine.py",
+    "sha256": "4b606abe19271f44c807755fa1abbc01c169184a60aa211fe636ae9bdb5311b7",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/fixtures.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/fixtures.py",
+    "sha256": "02a2d2c17c8ea9405467c58f351928255608db77361f70fa2d14628a4208390a",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/methods.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/methods.py",
+    "sha256": "2c945106361f716a015cc263ebfa197aa622dc2a564f764290b4410d2d53523c",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/review.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/review.py",
+    "sha256": "c0ad6873710adc596570d55b2a1278bc3bdc89c048a76ce6f0119b9e11b81538",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/seed_review.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/seed_review.py",
+    "sha256": "69b5f71c1768b78306e832a6ad45b11db917ca26afcff0f887509384935a0530",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/storage.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/storage.py",
+    "sha256": "d104e02095279615f6d0a8fcb9d75103d8a68d4b1cac04e1d256da55413188d4",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/trace_review.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/trace_review.py",
+    "sha256": "8d5a51cf344d14ea4ef9e50bf33b4816f9506bfd33a66aec81743544d4042627",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/__init__.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/__init__.py",
+    "sha256": "54d11f7e4bd5cb8da775223ba41474662daa2ca25187671f5133a11c107e5603",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/__main__.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/__main__.py",
+    "sha256": "f85b92637393dfca1b9779375b70197add619604619f92338e6531deaea8c8dc",
+    "unchanged": true
+  },
+  "comparator/validation/FIXTURE_REPORT.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/validation/FIXTURE_REPORT.json",
+    "sha256": "0d476831fe16b31d6ecd31e3e01bee8138b76f61cde4434f0c0e3461fe7e8662",
+    "unchanged": true
+  },
+  "comparator/validation/PROFILE_REPORT.json": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/validation/PROFILE_REPORT.json",
+    "sha256": "2b6001d0ff9fe088ecf466192fabdbd4924a5646f3d242b043084a9937958553",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_betting_refinements_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_betting_refinements_v01.py",
+    "sha256": "f1bac9ca018f82847f2785ae7cf625b46b6b31a38efa04b7898992c2ed168769",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_candidate_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_candidate_v01.py",
+    "sha256": "f6021ec0b19c8b835309ef5516968dc1ce98e4be740fd6c5a85159055c2b845e",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_core_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_core_v01.py",
+    "sha256": "bec0c1f86235ce4646d6659eeb099693cd1393b8023d4baaf5271da183452ab9",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_evaluation_v02.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_evaluation_v02.py",
+    "sha256": "e64d47ddacdf79482c6b956ed96c91fef64d66b03c621ea083348576d89d1943",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_generators_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_generators_v01.py",
+    "sha256": "03a810531cdf889dc00ee4f94e2972737db28503de29d4a2512375a5fa9234c9",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_sequential_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_sequential_v01.py",
+    "sha256": "60a99f7bf6817e0ad32935d6a42e26f993a5efc40bc543ee5d3a98ab0fa0cb03",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/paper2_stratified_tie_correction_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/paper2_stratified_tie_correction_v01.py",
+    "sha256": "929d5be2e3dbed1225aa8ed6019dd8c9210d431c24f5ea2ee4fbd09ae64b8ffe",
+    "unchanged": true
+  },
+  "comparator/paper2_compare/vendor/run_development_extension_v01.py": {
+    "source": "30_CODE/COMPARATOR_PACKAGE_v01/paper2_compare/vendor/run_development_extension_v01.py",
+    "sha256": "81536676b12df2052f44c05ce5659c3e6076d369246ae75ce8b4c2a19c069381",
+    "unchanged": true
+  },
+  "integer/band.py": {
+    "source": "30_CODE/INTERVAL_PACKAGE_v02/band.py",
+    "sha256": "385e3ae5c6c06e4d318a804d68b7f9b2298aea9763cfb6e5608b864792394966",
+    "unchanged": true
+  },
+  "integer/comparators.py": {
+    "source": "30_CODE/INTERVAL_PACKAGE_v02/comparators.py",
+    "sha256": "da58ec6c37db13e84fbd4ac041df9b14a10149d4c408ce5f8fc2da8c9340e0b4",
+    "unchanged": true
+  },
+  "integer/rlfa_certified.py": {
+    "source": "30_CODE/INTERVAL_PACKAGE_v02/rlfa_certified.py",
+    "sha256": "54fa706ea377987ee68312f37c907495c0be292db979352f592f9762739667b5",
+    "unchanged": true
+  },
+  "integer/qualified.py": {
+    "source": "30_CODE/INTERVAL_PACKAGE_v02/qualified.py",
+    "sha256": "34fae5681961907811856f2e95e00e3fcfea4d4cd30a3b4fffd4d29843de5e14",
+    "unchanged": true
+  },
+  "integer/study_adapter.py": {
+    "source": "30_CODE/INTERVAL_PACKAGE_v02/study_adapter.py",
+    "sha256": "5876db0adf132457057ad7ddfeb4f196d93e78f7530ec425a60e0167563db005",
+    "unchanged": true
+  }
+}
