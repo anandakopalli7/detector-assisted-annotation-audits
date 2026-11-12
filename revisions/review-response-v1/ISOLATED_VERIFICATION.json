@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "manifest_members": 9090,
+  "hashed_raw_blocks": 1200,
+  "method_means_recomputed": 96,
+  "exact_allocation_risks": 24,
+  "aligned_residual_risks": 16,
+  "bootstrap_precision_records": 84,
+  "critical_bootstrap_replayed": true,
+  "elapsed_seconds": 22.4,
+  "network_or_cloud_calls": 0
+}

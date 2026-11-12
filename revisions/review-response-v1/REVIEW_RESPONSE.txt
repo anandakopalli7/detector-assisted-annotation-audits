@@ -1,0 +1,89 @@
+RESPONSE TO THE AUTHOR-REQUESTED MOCK REVIEW
+Current manuscript: Detector-Assisted Annotation Audits: Capture Gaps, Count Estimation,
+and Review Allocation. Revision: review-response-v1, 11 November 2026 (New York).
+
+This is a response to a private AI-assisted pre-submission assessment, not a response
+to an IEEE editorial decision. All changes use existing evidence. No new detector
+inference, performance simulation, human labeling, dataset or paid resource was used.
+
+MAJOR COMMENT 1: COMPARATOR ADEQUACY
+Resolved for the demonstrated gap. Main Section VI-D and Table 5; supplement S12.2.
+
+The exact same public-input allocation diagnostic is now included in all 24 retained
+conditions. It censuses the >=2-proposal stratum when feasible while reserving two
+reviews in each other nonempty stratum, then allocates the remainder proportionally.
+Its rule consumes no outcome information or uncharged fitting labels. Its selection
+was post hoc, which is disclosed. The paper does not claim a new method or prospective
+selection validity. All risks were verified using exact rational arithmetic.
+
+The practical recommendation changed. Original I/Faster PPAT benefits survive the
+new comparator, with MSE ratios 0.581 and 0.798 on COCO and VOC. However, uncapped
+COCO has PPAT/comparator ratio 1.179 [1.016,1.345]; the simple allocation has 15.2%
+lower point risk. A 93.4% improvement over the original fitted-power baseline does
+not establish PPAT as the preferred practical choice. Across all 24 conditions,
+14 adjusted comparisons favor PPAT, seven favor allocation, and three are inconclusive.
+The allocation has lower point risk in eight conditions, including one inconclusive.
+
+The [0,1] fitted-calibration restriction and uncapped high-stratum oracle coefficient
+1.846 are disclosed. The oracle is explanatory, not a deployable baseline. No claim
+is made against unrestricted fitted calibration or every adaptive Neyman design.
+
+MAJOR COMMENT 2: ALIGNED INFORMATION AND ESTIMATION EVIDENCE
+Resolved for the scoped empirical claim. Main Section V-B and Figure 2; supplement S12.1.
+
+The capture plot now uses the actual N/U/H omission sets used by the count-estimation
+study, with equal within-frame denominators. All 800,000 saved public-feature rows,
+8,000 full-reference detector matchings and 800 deletion blocks were reconstructed.
+Capture is explicitly an uncapped omitted-node diagnostic, not retrieval precision/
+recall; the bridge to capped estimation is the actual proxy and residual decomposition.
+
+Primary natural/uniform capture gaps are 17.473 and 16.610 percentage points. Exact
+fixed-difference risk ratios are 1.01893 and 0.96471; variance/covariance changes
+nearly cancel. The same control sets yield descriptive PPAT ratios 1.22151 and
+1.25029. Inclusive RetinaNet shows larger gaps and different risk responses.
+The changed claims are endpoint-, estimator- and detector-specific. The manuscript
+does not claim no synthetic optimism, a novel variance theorem, or equivalence from
+a nonsignificant result. The original material-harm gate remains FAILED.
+
+MINOR COMMENT 3: PRACTICAL DECISION AND ABSOLUTE ERROR
+Resolved by reporting and scope correction. Main V-A, VI-A and VII.
+Root MSE 34.97/600 and 22.53/177 corresponds to 5.8% and 12.7% of the operational
+totals. Bias and 90th-percentile absolute error remain reported. Planning the scale
+of annotation-review effort is a possible use, not a demonstrated downstream benefit.
+No application-specific tolerance, human-time saving or natural-reference confidence
+certificate was measured. Accurate selected-image measurement remains a requirement;
+the callback implementation does not establish single-reviewer accuracy.
+
+MINOR COMMENT 4: BOOTSTRAP TAIL PRECISION
+Resolved numerically, without claiming better statistical coverage. Main IV-C,
+updated Tables 2/4/5 and supplement S6, S10 and S12.3.
+Two independent million-resample streams per cell are pooled to two million.
+All 84 contrasts satisfy the frozen 2% endpoint-deviation and classification check;
+maximum relative endpoint deviation is 0.16481%. The 48-family lower tail is now
+near order statistic 1,042 rather than approximately five. Separate 12-, 48- and
+post hoc 24-contrast families are explicit. Fifty blocks remain the statistical
+basis; selection, reference and population uncertainty are not removed.
+The former 39/7/2 secondary classification changes to 40/6/2 at a borderline
+IGNORE/VOC/strict/Faster comparison. Both the old record and this change are disclosed.
+
+MINOR COMMENT 5: HISTORICAL INTERVAL/METROLOGY MATERIAL
+Resolved. The main-paper historical section is removed. Supplement S13 retains
+the limited context and exact evidence pointers, including the failed historical
+joint MSE/interval-width target and single-rater measurement limitations. The
+historical aggregate files are directly accessible in the current archive.
+
+MINOR COMMENT 6: ACCESS TO CURRENT EVIDENCE
+Resolved by an upload-ready, self-contained reviewer package. Availability statement
+and supplement S14 identify the current archive, not an old DOI or private URL as
+public access. The archive contains 9,090 manifest-covered files and was extracted
+and checked separately, including a fresh two-million-resample replay of the critical
+uncapped comparison. The manuscript and 20-page supplement are included with source.
+Private GitHub is a mirror only. No Zenodo publication or journal submission is claimed.
+When submitting, the current evidence ZIP must accompany the manuscript; a private
+GitHub link alone does not satisfy this requirement. Portal upload limits remain a
+submission-stage check, not a scientific result.
+
+VERIFICATION BOUNDARY
+The numerical checks validate computations on retained evidence. They do not replace
+independent human peer review, relabel reference images, audit detector training overlap,
+or prove that the journal will consider the empirical significance sufficient.

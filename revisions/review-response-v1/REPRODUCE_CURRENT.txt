@@ -1,0 +1,37 @@
+CURRENT EVIDENCE: review-response-v1
+
+Extract ProgrammeB_OJCS_current_evidence.zip into a new empty directory, preserving paths.
+No private GitHub login, DOI, image download, detector weights or cloud service is needed
+for the numerical checks below. Use Python 3.12 and NumPy 2.5.4 for the recorded replay.
+
+From the extraction directory:
+  python -B 14_review_response_v01/verify_current_evidence.py
+  python -B 14_review_response_v01/verify_current_evidence.py --bootstrap
+
+The first verifies every manifest member, 1,200 hashed saved blocks, 96 method MSEs,
+24 exact allocation risks with independent pairwise integer arithmetic, 16 aligned
+residual-risk decompositions and all 84 bootstrap precision records. The second also
+replays the two-million-resample critical UNCAPPED COCO/I/Faster allocation contrast.
+Both are read-only and make no network requests. Typical runtime is under two minutes
+on the development computer. No installation or paid resource action is performed.
+
+The full response analysis is in analyze.py, with fixed control reconstruction and
+bootstrap algorithms. Its existing bootstrap_cells contain all independent-stream
+endpoints, not simulated new performance. The protocol is ANALYSIS_SPEC.txt.
+The original protocols and source locks remain at stages 11 and 12. Historical
+10,000-resample intervals are superseded by stage 14 BOOTSTRAP_CONTRASTS.csv;
+point estimates and original failed gates are unchanged.
+
+No claims of scientific independence follow from reproduction of saved calculations.
+Semantic reannotation, reference completeness and external generalization remain
+outside these checks. Full source image inference requires original licensed images.
+
+BUILDING THE DOCUMENTS
+The current source is 14_review_response_v01/working_revision/ with figures in its
+sibling figures/ directory. Use an installed Tectonic engine to compile main.tex and
+supplement.tex from working_revision/. The included ieeetj.cls and reference file
+are needed. Final PDF files are supplied; compiling is optional for verification.
+
+Historical evidence entry points referenced by supplement S13 are provided directly
+at 05_results/ANALYSIS_V2/ and 01_baseline/paper1_source/anc/50_RESULTS/. Additional
+earlier inputs/results/code are preserved in the original nested release ZIPs.

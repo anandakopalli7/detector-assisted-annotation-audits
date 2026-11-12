@@ -1,0 +1,148 @@
+REPEAT AUTHOR-REQUESTED MOCK REVIEW: OJCS
+Version: review-response-v1. Reviewed 11 November 2026 (New York).
+
+AUTHOR-SIDE DECISION: GO FOR OJCS SUBMISSION OF THE SCOPED EMPIRICAL PAPER.
+The two demonstrated major concerns no longer require a scientific revision for
+the claims now written. The four reporting/access concerns are addressed in the
+current manuscript and supplied evidence. I would no longer recommend rejection
+or major revision for the reasons in the preceding mock report.
+
+This is a recommendation to submit for independent peer review. It is NOT a
+recommendation based on a claimed high probability of acceptance, and it is not an
+IEEE editorial decision. If the author's threshold remains extremely high acceptance
+confidence or elimination of novelty/significance rejection risk, that separate
+threshold remains NO-GO: the evidence does not establish it. No acceptance percentage
+is assigned. The journal may still judge the incremental empirical significance
+insufficient; numerical integrity cannot settle that editorial judgment.
+
+ROLE, INDEPENDENCE AND POLICY
+This assistant helped develop and revise the manuscript. This is not an independent
+external review and is not claimed to be unbiased by construction. The assessment
+uses explicit claim/evidence links, preserved adverse results and the original review's
+counterexamples. Author affiliation, urgency, spending, immigration goals and the
+previous arXiv outcome were excluded from the scientific decision.
+The user owns the unpublished manuscript and explicitly authorized this assistance.
+The installed peer-review skill was used as an assessment checklist; assigned-reviewer
+intake/editor clearance was not falsely recorded. IEEE prohibits AI-written formal
+review reports [2]. This is an author-owned pre-submission assessment and will not be
+sent as an assigned IEEE review. No external human expert participated.
+
+MATERIALS AND CHECKS
+Read revised article (10 pages), supplement (20 pages), all response tables and
+figure, frozen specifications, retained comparator diagnostic, aligned-control and
+bootstrap output, and point-estimator code relevant to these comparisons. Reviewed
+all rendered pages. Rechecked the closest-work distinction against primary sources
+[4-6] and the official criteria [1-3]. No exhaustive priority search was conducted.
+
+The independent numerical reduction (separate implementation, same assistant) verifies
+96 method MSEs from 1,200 hashed raw blocks; 24 exact allocation risks using pairwise
+integer arithmetic; 16 aligned residual-risk comparisons; and 84 precision records.
+The isolated extraction validates 9,090 manifest members and replays the critical
+uncapped COCO allocation contrast with two million resamples. The original records,
+failed gates and previous review remain unchanged. No new performance experiments
+or paid resources were used. The source manuscript and analysis remain author-review
+drafts requiring the human author's final factual review.
+
+WHAT THE PAPER NOW CONTRIBUTES
+1. A controlled empirical finding on operational annotation counts. The natural
+   omitted-node capture disadvantage is measured on the exact same matched controls
+   as count estimation: gaps of 17.5/16.6 percentage points coexist with fixed-difference
+   risk ratios 1.019/0.965, while PPAT ratios are 1.222/1.250. This is not merely
+   comparing different metrics on unrelated groups. It identifies when the change
+   in omitted identity does and does not translate to aggregate count risk.
+2. A practically consequential comparison correction. The uncapped PPAT advantage
+   of 93.4% over one proportional-allocation baseline reverses against a public-input
+   allocation using exactly the same review budget: PPAT's risk is 17.9% higher.
+   The paper therefore teaches a concrete audit-design lesson about allocation,
+   rather than selling an already-published estimator as universally superior.
+3. Reproducible operational boundaries. Original primary benefits, policy changes,
+   small-budget failures, reference limitations and the failed directional hypothesis
+   are retained. A selected-image callback makes the fixed procedure executable
+   without supplying the whole outcome vector; reference quality remains external.
+
+WHAT IS NOT NEW
+The released annotation reference, PPAT coefficients, active sampling, calibrated
+error-prevalence estimation, model-assisted totals and finite-population variance
+identities already exist. Penquitt et al. supply the underlying annotation/error
+benchmark [5]; PPAT supplies the algorithmic ideas and fixed-coefficient choices [4].
+PPI++ already discusses tuning restrictions and alternatives [6]. Those facts are
+credited. I did not find the precise aligned control/estimation/allocation result
+in these closest works. This bounded finding supports a distinct empirical
+contribution, but is not proof that no other publication contains related results.
+
+WHY THE DECISION CHANGES
+The earlier decision rested on two demonstrated shortcomings, not on a journal
+requirement to invent an algorithm. First, a feasible missing comparator contradicted
+the broad practical recommendation. It is now evaluated and the recommendation
+changes when it loses. Second, the information and estimation contrasts were not
+aligned. They now use the same omission sets, actual proxies and exact risk
+decomposition, and disclose where other estimators suffer synthetic optimism.
+The resulting scientific lesson is supported by evidence rather than favorable
+framing of a routine PPAT application. An empirical result can warrant review even
+when its general statistical mechanism is classical.
+
+CRITERION-BY-CRITERION JUDGMENT
+Scope: fits computing/data-quality evaluation; empirical form is not an exclusion.
+Technical validity: supported within the defined finite-frame measurement task.
+Comparator adequacy: demonstrated gap resolved. Not an exhaustive state-of-the-art
+  superiority study, which the revised manuscript does not claim to be.
+Originality: specific empirical distinction is plausible and appropriately credited.
+Significance: useful but bounded. Stronger than the former claim; moderate confidence
+  in sufficient OJCS interest, not an assurance of the journal's high-impact threshold.
+Interpretation: claims now match the controls, estimator dependence and allocation
+  reversals. No physical completeness, equivalence or universal-optimality claim.
+Uncertainty: numerical bootstrap-tail issue addressed. Approximate conditional
+  inference remains a limitation; two million resamples do not create new subjects.
+Reproducibility: current source and evidence are self-contained and verified.
+Presentation: major findings are in the main article; historical context is separated.
+
+RESIDUAL LIMITATIONS AND WHY THEY DO NOT TRIGGER NEW EXPERIMENTS HERE
+Only person annotations, two related detectors, two confirmation frames and one
+source-reference pipeline are studied. This limits scope but does not invalidate
+the stated finite-frame contrast. Additional datasets would be needed for broad
+generalization, which is not claimed.
+The allocation rule was selected post hoc. Its risk on these fixed frames is valid;
+it is not a validated prospective method-selection policy. No unrestricted-calibration
+or full adaptive Neyman superiority claim survives in the text.
+Capture is a fixed-matching node diagnostic, not a recreation of a complete retrieval
+PR benchmark. Matching ties, reference incompleteness, count caps and policy choices
+remain explicit. The exact proxy/risk analysis bridges that diagnostic to the chosen
+estimand without equating uncapped instance capture with capped image counts.
+No human-time study, downstream benefit or natural-reference interval coverage is
+available. The paper states those limits instead of treating code correctness as
+human measurement validation.
+None of those omissions contradicts a central written claim. I therefore do not
+recommend another experiment within this bounded revision. A future reviewer could
+reasonably request broader validation; that possibility has not been eliminated.
+
+SUBMISSION ACTION BOUNDARY
+Scientific preparation: GO for the written scope; no known unresolved major finding
+from this review. High-confidence/no-rejection threshold: NOT ESTABLISHED.
+Submission itself: NOT performed. Human author review and live portal/file checks
+remain. Upload the current article, supplement and evidence package, not just a
+private link. Do not cite the earlier Zenodo draft as containing this revision.
+Public release requires its own verified update; a private mirror is not public access.
+
+OFFICIAL AND PRIMARY SOURCES
+[1] IEEE Computer Society, Reviewer Guidelines. Methods, analysis, conclusions,
+technical significance and accuracy. Official indexed text checked; direct page
+access returned 403. No private OJCS board scorecard was obtained.
+https://www.computer.org/publications/reviewer-resources
+[2] IEEE Author Center, Become an IEEE Reviewer. Full public guidance rechecked,
+including revised-article evaluation and formal-review AI restriction.
+https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/become-an-ieee-reviewer/
+[3] IEEE Open, OJCS scope: rigorously peer-reviewed computing research, high-impact
+results. This description is a scope/significance standard, not an acceptance guarantee.
+https://open.ieee.org/publishing-options/topical-journals/
+[4] Ashouritaklimi et al., Prediction-Powered Active Testing, Sections 3.2-3.3.
+https://arxiv.org/html/2607.08347v1
+[5] Penquitt et al., Object Detection Benchmarks are Incomplete, Sections III/VI
+and Appendix D. Source annotations and natural/synthetic error-retrieval distinction.
+https://arxiv.org/html/2609.21822
+[6] Angelopoulos, Duchi and Zrnic, PPI++, Section 6 and Appendix B; primary source
+examined in the preceding mock review and retained in the current evidence context.
+https://arxiv.org/html/2311.01453v2
+
+Peer-review skill: local peer-review/SKILL.md, version 2.4. Procedural guidance only,
+not evidence of merit or independent review. Current auditability checks do not
+constitute editorial approval.
