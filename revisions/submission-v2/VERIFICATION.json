@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "changed_pages": [
+    "main-09.png",
+    "supplement-20.png"
+  ],
+  "science_unchanged": true,
+  "all_historical_evidence_preserved": true,
+  "historical_manifest_members": 9138,
+  "new_manifest_members": 9157,
+  "archive_sha256": "3257079bf04ce029aa69713912984d5b621128c5388b4d061ce655e4c3905490",
+  "article_pages": 10,
+  "supplement_pages": 20,
+  "cover_pages": 1,
+  "numeric_exit_code": 0,
+  "public_pdf_programme_label_matches": 0,
+  "doi": "10.5281/zenodo.24126429",
+  "visual_review": "PASS",
+  "visual_reviewed_pages": [
+    "main-09.png",
+    "supplement-20.png",
+    "cover-1.png"
+  ]
+}

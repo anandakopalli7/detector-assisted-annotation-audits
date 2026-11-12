@@ -1,0 +1,43 @@
+# License and data provenance
+
+The author approved these release terms on 11 November 2026.
+
+Original author-owned Python code is MIT licensed (LICENSE). Original research
+documentation and results are CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Attribute Ananda Siva Kumar Kopalli Naga Venkata and the accompanying archive.
+The MIT software permission applies to the code; the CC license applies to
+research text/results. Third-party rights are not replaced by either grant.
+
+COCO annotations: COCO Consortium, CC BY 4.0. The released selected-target
+records and derived count frames identify deletions and modifications in their
+metadata. See https://cocodataset.org/dataset/termsofuse.htm and the COCO paper
+(Lin et al., Microsoft COCO: Common Objects in Context, ECCV 2014).
+Original photographs and model weights are not redistributed.
+
+KITTI: Geiger et al., CVPR 2012 / IJRR 2013;
+https://www.cvlibs.net/datasets/kitti/ . Underlying KITTI datasets carry
+CC BY-NC-SA 3.0. KITTI-related retained aggregates must not be interpreted as
+granting rights beyond those applicable source terms. Rechecked source:
+https://github.com/JonathanKlees/rechecked . Only previously released aggregate
+audit statistics and their original computational checks are included; images,
+annotation files and private human item records are excluded.
+
+Retained nuImages results: https://www.nuscenes.org/nuimages . These files are
+historical aggregate research outputs, not a redistribution of the nuImages
+dataset. Obtain original assets under the provider's own terms.
+
+NumPy, SciPy, gmpy2, TorchVision and other dependencies keep their upstream
+licenses; installed software binaries are not included. Scientific methods
+are attributed in the paper and retained source comments. Earlier internal
+license-pending notices are preserved as historical provenance; this dated
+release notice states the author's current grant, only for author-owned work.
+
+CURRENT NATURAL-REFERENCE STUDY (submission-v1)
+Adapted soft-label references from Penquitt et al., Object Detection Benchmarks Are
+Incomplete (https://arxiv.org/abs/2609.21822), retain the source CC BY-SA 4.0 terms:
+https://creativecommons.org/licenses/by-sa/4.0/ . The pinned release, attribution,
+eligibility exclusions and modifications are recorded in the archive. Do not apply
+the original-code MIT license or original-results CC BY grant to these data.
+Selected source references are adapted by filtering class/score/height, converting
+coordinates and matching to original annotations, as documented in the paper.
+Third-party package names/methods are attribution, not a grant of upstream rights.

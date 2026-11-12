@@ -5,56 +5,37 @@
 Ananda Siva Kumar Kopalli Naga Venkata, Independent researcher, Troy, MI, USA.
 ORCID: https://orcid.org/0009-0002-5241-9922
 
-## Current package: submission-v1
+## Current release: submission-v2
 
-[Article](revisions/submission-v1/ProgrammeB_OJCS_article.pdf) |
-[Supplement](revisions/submission-v1/ProgrammeB_OJCS_supplement.pdf) |
-[Manuscript source](revisions/submission-v1/ProgrammeB_OJCS_sources.zip) |
-[Full evidence release](https://github.com/anandakopalli7/programme-b-annotation-audits/releases/tag/ojcs-submission-v1)
+[Manuscript](revisions/submission-v2/Annotation_Audits_Manuscript.pdf) |
+[Supplement](revisions/submission-v2/Annotation_Audits_Supplement.pdf) |
+[LaTeX](revisions/submission-v2/Annotation_Audits_LaTeX.zip) |
+[Complete evidence release](https://github.com/anandakopalli7/detector-assisted-annotation-audits/releases/tag/ojcs-submission-v2)
 
-Artifact DOI allocated for this exact release: https://doi.org/10.5281/zenodo.24126429
-Zenodo publication is pending user upload and verification at release preparation.
-This is an author manuscript and research-artifact release. Journal submission
-and acceptance are not claimed by this README.
+Artifact DOI reserved for the matching Zenodo deposit: https://doi.org/10.5281/zenodo.24126429
+Publication of the corrected Zenodo files remains pending author upload and verification.
+No journal submission or acceptance is claimed.
 
-The study separates detector capture, finite-budget count estimation and review
-allocation using matched natural/synthetic controls. Established estimators and
-source annotations are credited. The failed original directional hypothesis,
-adverse comparisons and post hoc labels remain. Results concern operational
-reference counts on fixed cohorts, not physical completeness or universal gains.
+The study distinguishes instance capture, finite-budget count estimation and
+review allocation with matched natural/synthetic controls and existing estimators.
+Its failed original hypothesis, adverse comparisons and reference limits remain.
+This release corrects public naming and links; scientific findings are unchanged.
 
-## Code, data and reproduction
+## Reproduce retained numerical evidence
 
-Download **ProgrammeB_OJCS_evidence.zip** from the release and extract it into a
-new directory. The ZIP includes current and historical study code, derived input
-frames, retained detector predictions, raw result blocks, frozen protocols and
-analysis. The current entry point is `START_HERE_CURRENT.txt`. From its root:
+Extract Annotation_Audits_Evidence.zip and run `python -B verify_evidence.py`
+with Python 3.12 and NumPy. The archive includes current source, retained detector
+predictions, frozen protocols, raw results and read-only numerical verification.
+No network or paid compute is required. Start with its top-level README.txt.
 
-```text
-python -B 18_submission_release_v01/verify_submission_package.py
-```
+Historical records in evidence/ preserve original file identities and internal
+labels for hash verification. They are provenance, not current public manuscript
+names or official/independent journal review decisions. Prior repository releases
+and root-level code are historical; use this version's entry point.
 
-Use Python 3.12 with NumPy. The saved exact bootstrap replay environment uses
-NumPy 2.5.4. The read-only check validates 9,138 manifest members and rechecks
-1,200 raw blocks, 96 method means, 24 exact allocation risks, 16 aligned residual
-risk comparisons and 84 precision records. No cloud or image download is needed.
-This is computational verification, not independent semantic reannotation.
+## Licenses
 
-Archive SHA-256: `d13547ed90f7fc7ad807c927044b692868130957f9aed52b7c884abb20daf24b`
-
-Scientific text, equations, numeric tables and figure bytes are unchanged from
-the corrected editorial-final-v1 paper. Only release availability metadata was
-updated. See the verification receipts in `revisions/submission-v1/`.
-
-## Licenses and history
-
-Original code is MIT; original documentation/results are CC BY 4.0. Adapted
-soft-label references retain CC BY-SA 4.0. Historical KITTI-related material
-retains its recorded noncommercial/share-alike restrictions. See
-[license and provenance mapping](revisions/submission-v1/LICENSES_AND_DATA_PROVENANCE.txt).
-Images, weights and credentials are excluded.
-
-Earlier root-level code and releases are retained for provenance; they are not
-the entry point for the current paper. The previous README is preserved in
-`docs/README_review_response_v1.md`. Historical author-side mock reviews are not
-official or independent IEEE decisions. Claude Paper 2 is a separate project.
+Original code: MIT. Original text/results: CC BY 4.0. Adapted reference data:
+CC BY-SA 4.0. Applicable historical KITTI material: CC BY-NC-SA 3.0.
+See [license mapping](revisions/submission-v2/LICENSES_AND_DATA_PROVENANCE.txt).
+Images, model weights and credentials are excluded.
