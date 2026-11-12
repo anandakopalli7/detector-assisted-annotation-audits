@@ -1,0 +1,8 @@
+{
+  "only_changes": [
+    "Article availability paragraph: final artifact DOI, repository and submission-v1 archive label",
+    "Supplement evidence paragraph: same DOI and repository"
+  ],
+  "frozen_science": true,
+  "publication_gate": "These staged files must not be journal-submitted until the exact Zenodo deposit is publicly verified. DOI currently reserved; not represented as registered in the workflow status."
+}

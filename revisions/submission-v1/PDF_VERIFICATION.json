@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "pdfs": {
+    "main": {
+      "pages": 10,
+      "sha256": "fda2633e513774ae293f585e0bca605c18e6ba034eb2cdbc6b63fafc0882c75b",
+      "all_fonts_embedded": true,
+      "outside_page_characters": 0
+    },
+    "supplement": {
+      "pages": 20,
+      "sha256": "03f83e60439779192b396ce2746d4f38d0f84e6b8ed7ffe8a4f04eaa69d734d1",
+      "all_fonts_embedded": true,
+      "outside_page_characters": 0
+    }
+  },
+  "science_unchanged": true,
+  "figure_bytes_unchanged": true,
+  "changed_rendered_pages": [
+    "main-09.png",
+    "supplement-20.png"
+  ],
+  "cover_pages": 1,
+  "visual_inspection": "Article page 9, supplement page 20 and one-page cover visually inspected; no clipping, overlap or broken link text. All other 28 manuscript pages pixel-identical to the prior inspected PDFs."
+}

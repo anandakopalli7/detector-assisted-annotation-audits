@@ -1,0 +1,9 @@
+{
+  "status": "HASH_AND_EXTRACTION_PASS",
+  "sha256": "d13547ed90f7fc7ad807c927044b692868130957f9aed52b7c884abb20daf24b",
+  "bytes": 109375608,
+  "manifest_members": 9138,
+  "prior_members_preserved": 9118,
+  "credential_pattern_hits": [],
+  "credential_scan_scope": "Known token/private-key formats in released bytes, not a guarantee of detecting every secret format."
+}

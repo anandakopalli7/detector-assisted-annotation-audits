@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the versioned research-artifact deposit. Zenodo publication must be verified before claiming a registered DOI."
+type: software
+title: "Reproducibility materials for Detector-Assisted Annotation Audits: Capture Gaps, Count Estimation, and Review Allocation"
+authors:
+  - given-names: "Ananda Siva Kumar"
+    family-names: "Kopalli Naga Venkata"
+    affiliation: "Independent researcher, Troy, MI, USA"
+    orcid: "https://orcid.org/0009-0002-5241-9922"
+version: "submission-v1"
+repository-code: "https://github.com/anandakopalli7/programme-b-annotation-audits"
+url: "https://github.com/anandakopalli7/programme-b-annotation-audits/releases/tag/ojcs-submission-v1"
