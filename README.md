@@ -12,8 +12,8 @@ ORCID: https://orcid.org/0009-0002-5241-9922
 [LaTeX](revisions/submission-v2/Annotation_Audits_LaTeX.zip) |
 [Complete evidence release](https://github.com/anandakopalli7/detector-assisted-annotation-audits/releases/tag/ojcs-submission-v2)
 
-Artifact DOI reserved for the matching Zenodo deposit: https://doi.org/10.5281/zenodo.24126429
-Publication of the corrected Zenodo files remains pending author upload and verification.
+Published author manuscript and reproducibility materials (submission-v2): https://doi.org/10.5281/zenodo.24126429
+The Zenodo record and all seven files are publicly accessible.
 No journal submission or acceptance is claimed.
 
 The study distinguishes instance capture, finite-budget count estimation and

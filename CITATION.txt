@@ -1,1 +1,3 @@
-Ananda Siva Kumar Kopalli Naga Venkata (2026). Reproducibility materials for Detector-Assisted Annotation Audits: Capture Gaps, Count Estimation, and Review Allocation. submission-v2. Zenodo DOI allocated: 10.5281/zenodo.24126429. Publication pending verification; do not describe as peer reviewed.
+Ananda Siva Kumar Kopalli Naga Venkata (2026). Reproducibility materials for Detector-Assisted Annotation Audits: Capture Gaps, Count Estimation, and Review Allocation (submission-v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24126429
+
+This deposit contains research artifacts and an author manuscript; it is not a peer-reviewed journal article.

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the versioned research-artifact deposit. Zenodo publication must be verified before claiming a registered DOI."
+message: "Please cite the published, versioned Zenodo research-artifact deposit."
 type: software
 title: "Reproducibility materials for Detector-Assisted Annotation Audits: Capture Gaps, Count Estimation, and Review Allocation"
 authors:
@@ -9,4 +9,6 @@ authors:
     orcid: "https://orcid.org/0009-0002-5241-9922"
 version: "submission-v2"
 repository-code: "https://github.com/anandakopalli7/detector-assisted-annotation-audits"
-url: "https://github.com/anandakopalli7/detector-assisted-annotation-audits/releases/tag/ojcs-submission-v2"
+url: "https://doi.org/10.5281/zenodo.24126429"
+doi: "10.5281/zenodo.24126429"
+date-released: "2026-11-12"
