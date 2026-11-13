@@ -14,7 +14,7 @@ ORCID: https://orcid.org/0009-0002-5241-9922
 
 Published author manuscript and reproducibility materials (submission-v2): https://doi.org/10.5281/zenodo.24126429
 The Zenodo record and all seven files are publicly accessible.
-No journal submission or acceptance is claimed.
+Submitted to IEEE Open Journal of the Computer Society on 12 November 2026. An editorial decision is pending.
 
 The study distinguishes instance capture, finite-budget count estimation and
 review allocation with matched natural/synthetic controls and existing estimators.
